@@ -1,1 +1,14 @@
-
+# After eureka client
+spring:
+   application:
+         name: config-dev
+eureka:
+   instances:
+      prefer-ip-address: true
+   client:
+       fetch-registry: true 
+       regiter-with-eureka: true
+       # url for eureka server 
+       service-url:
+         defaultZone: http://localhost:8761/eureka        
+       
