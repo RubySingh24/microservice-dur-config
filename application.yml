@@ -1,5 +1,7 @@
 # After eureka client
- 
+spring:
+  application:
+     name: user-from-git
 eureka:
    instances:
       prefer-ip-address: true
